@@ -1,0 +1,60 @@
+﻿body {
+    background-color: lightgray;
+}
+
+.navbar-brand {background:aqua;padding-right:20px;
+
+}
+#navbarSupportedContent{align-content: flex-start;
+
+}
+
+p {font-size:large;}
+
+.rowcontent {background-color:white;}
+
+.widehalf {
+    background-color: white;
+    float: left;
+    width: 56%;
+    margin: 30px 30px 30px 30px;
+    padding-left: 20px;
+}
+
+.shorthalf {
+    background-color: white;
+    float: left;
+    width: 33%;
+    margin: 30px 30px 30px 30px;
+}
+
+h1 {
+    color: navy;
+}
+
+#titleheader {color:navy;}
+
+.secondcontain {
+    float: left;
+    width: 50%;
+}
+
+@media(max-width:1200px){
+    .secondcontain {
+        width:100%
+    }
+    .widehalf {
+        background-color: white;
+        float: left;
+        width: 95%;
+        margin: 30px 30px 30px 30px;
+        padding-left: 20px;
+    }
+
+    .shorthalf {
+        background-color: white;
+        float: left;
+        width: 95%;
+        
+    }
+}

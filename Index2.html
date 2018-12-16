@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <title>Climate at Latitude</title>
+    <link rel="stylesheet" href="reset.css" />
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+</head>
+
+
+<body>
+    
+    <div w3-include-HTML="menu.html"></div>
+   
+    <div>
+        <div class="widehalf">
+            <h1>Summary: Lattitude vs Climate</h1>
+            <hr />
+            <div>
+                <img style="float: left;" src="Fig1.png" height="160" width="160" />
+                <p>
+                    An analysis of temperature vs lattitude. our sponsor, visiting earth for the first time and looking for an appropriate place to habitate, needing a climate similar to his home planet requested that we look at how weather changes in relation to distance from the equator.
+                    to accomplish this, we gathered data using the openweathermap api from 500 seperate cities.
+                </p>
+                <p>
+                    After assembling the datasaetm we used Matplotlib to plot varius aspects of weather vs latitude.  Factors we looked at included tempearture, cloudiness, wind speed, and humidity.  The source data and visualizations created for this analysis are included as well as
+                    explanations and descriptions of any trends and correlations that were witnessed.
+                </p>
+            </div>
+        </div>
+        <div class="shorthalf">
+            <div w3-include-html="righthalf.html"></div>
+
+        </div>
+    </div>
+
+    <script>
+        w3.includeHTML();
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
